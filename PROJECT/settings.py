@@ -88,10 +88,10 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'qrcode_bd',  # Nome do banco de dados
-        'USER': 'qrcode_bd_user',  # Usuário do banco de dados
-        'PASSWORD': 'aD6dEcFFEZfA7yB6EqM2SP8mCPLmF28v',  # Senha do banco de dados
-        'HOST': 'dpg-cu76hktsvqrc7396g670-a.oregon-postgres.render.com',  # Host do banco de dados
+        'NAME': 'qrcode_bd_oeld',  # Nome do banco de dados
+        'USER': 'qrcode_bd_oeld_user',  # Usuário do banco de dados
+        'PASSWORD': 'WSYo3UWlN2dbph7gMgzGakMLEDLchiq1',  # Senha do banco de dados
+        'HOST': 'postgresql://qrcode_bd_oeld_user:WSYo3UWlN2dbph7gMgzGakMLEDLchiq1@dpg-cuqmp8dds78s73fvmm5g-a.oregon-postgres.render.com/qrcode_bd_oeld',  # Host do banco de dados
         'PORT': '5432',  # Porta do banco de dados (comum para PostgreSQL)
     }
 }
