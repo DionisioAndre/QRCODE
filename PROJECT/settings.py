@@ -88,11 +88,14 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'qrcode_bd_oeld',
-        'USER': 'qrcode_bd_oeld_user',
-        'PASSWORD': 'WSYo3UWlN2dbph7gMgzGakMLEDLchiq1',
-        'HOST': 'dpg-cuqmp8dds78s73fvmm5g-a.oregon-postgres.render.com',
-        'PORT': '5432',  # Porta do banco de dados (comum para PostgreSQL)
+        'NAME': 'meubanco_kpd6',
+        'USER': 'meubanco_kpd6_user',
+        'PASSWORD': 'sfpyihLr0kCLapvqgh8PHcg6FSbmu7IC',
+        'HOST': 'dpg-d1odag6r433s73c7euig-a.oregon-postgres.render.com',
+        'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
 }
 
