@@ -77,16 +77,13 @@ REST_FRAMEWORK = {
     ),
 }
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'meubanco_kpd6',
-        'USER': 'meubanco_kpd6_user',
-        'PASSWORD': 'sfpyihLr0kCLapvqgh8PHcg6FSbmu7IC',
-        'HOST': 'dpg-d1odag6r433s73c7euig-a.oregon-postgres.render.com',
+        'NAME': 'meubanco_kpd6_4t4k',
+        'USER': 'meubanco_kpd6_4t4k_user',
+        'PASSWORD': 'NdwWHjckS1b2z9sMCUzqZ0I3HPrITQov',
+        'HOST': 'dpg-d36j5rripnbc739886mg-a.oregon-postgres.render.com',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
